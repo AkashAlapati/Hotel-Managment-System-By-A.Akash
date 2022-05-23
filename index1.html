@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+div{
+height:240px;
+width:200px;
+padding:10px;
+margin:10px;
+border:2px solid aqua;
+position:absolute;
+left:30%;
+top:30%;
+text-align:center;
+background-color:cyan;
+border-radius:10px;
+}
+p{
+color:red;
+padding:0px;
+font-weight:10px;
+margin:5px;
+}
+#btn{
+width:150px;
+height:50px;
+background-color:green;
+color:black;
+border-radius:10px;
+margin:10px;
+}
+#btn:hover{
+background-color:blue;
+color:red;
+}
+</style>
+</head>
+<body>
+<div>
+<form action="login.php" method="POST" id="form">
+<p>LOGIN FORM</p><br />
+<p>USERNAME:</p>
+<input type="text" name="uname" ><br />
+<p>PASSWORD:</p>
+<input type="password" name="pass" ><br />
+<input type="submit" name="submit" value="Login" id="btn"><br />
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<allusers>
+    <user>
+     <name>akash</name>
+     <password>akashhotel</password>
+   </user>
+   <user>
+   <name>vineash</name>
+   <password>vineashhotel</password>
+   </user>
+</allusers>
